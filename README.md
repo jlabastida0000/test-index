@@ -6,6 +6,36 @@ The Palm Index Repository is the central hub for Palm's search and indexing solu
 
 This repository is a monorepo, encompassing the entire codebase and related components required for building, managing, and scaling our search and indexing solutions. It serves as a comprehensive and centralized resource for developing and maintaining our search-related features and services.
 
+## Major Features
+
+1. **MDMB & EKG Data Acquisition (scraping, mining, pipelines, indexing)**
+   - **Owner:** James Labastida
+   - **Description:** This feature encompasses the acquisition of data from various sources, including scraping, mining, data pipelines, and indexing processes. It is responsible for gathering and processing the necessary data for the Index Function.
+
+2. **Search**
+   - **Sub-features:**
+     - **Semantic Search:** Provides advanced search capabilities based on the contextual meaning and intent of queries, enabling more accurate and relevant results.
+     - **Universal Search:** Allows users to perform searches across multiple data sources and types, providing a unified and comprehensive search experience.
+     - **Keyword Search:** Enables traditional keyword-based searches, supporting exact matches, phrase matching, and boolean operators.
+     - **Vector Search:** Facilitates similarity-based searches by representing data as high-dimensional vectors, enabling efficient retrieval of similar or related content. This is a dependency for Semantic and Universal Search.
+
+3. **Index UI & Admin**
+   - **Sub-features:**
+     - **Search Features:** Provides a user-friendly interface for executing various search types, including advanced filtering, sorting, and result customization options.
+     - **UI/UX (Owner: Jose):** Focuses on designing an intuitive and visually appealing user interface, ensuring a seamless and engaging experience for end-users.
+     - **Reporting & Visualizations:** Offers comprehensive reporting and data visualization capabilities, enabling users to analyze and gain insights from search results and index data.
+
+4. **Palm Confidence Scores**
+   - **Description:** Implements algorithms and techniques to calculate confidence scores for search results, providing users with an indication of the relevance and accuracy of the retrieved information.
+
+5. **Work with Matt Lent on Internal/External APIs & SDK Kits**
+   - **Description:** Collaborates with Matt Lent to develop and maintain internal and external APIs, as well as Software Development Kits (SDKs), to enable seamless integration and interaction with the Index Function from various applications and platforms.
+
+## Team Structure
+
+- **Index Owner:** Connor
+- **Engineers:** Daniel, James, Matthew Lent (API & Infra), and Data Engineer Hire
+
 ## Key Features and Components 🔑
 
 ### Search Types 🔍
