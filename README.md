@@ -33,7 +33,7 @@ This repository is a monorepo, encompassing the entire codebase and related comp
 
 ## Team Structure
 
-- **Index Owner:** Connor
+- **Index Owner:** Connor Patterson
 - **Engineers:** Daniel Stallworth, James Labastida, Jose Seijas, Matthew Lent (API & Infra), and Data Engineer Hire
 
 ## Key Features and Components 🔑
