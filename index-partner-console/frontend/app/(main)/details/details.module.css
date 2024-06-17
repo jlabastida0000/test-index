@@ -1,0 +1,171 @@
+.mainContainer {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex-grow: 1;
+  }
+
+/* Return Button */
+
+.return__wrapper {
+    position: relative;
+}
+
+.return__image {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    cursor: pointer;
+}
+
+.return__button {
+    padding: 8px 8px 8px 32px;
+    border-radius: 8px;
+    background-color: #F0F4F8;
+    border: none;
+    color: #202327;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+
+}
+
+/* Merchant Info */
+
+.merchant {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.merchant__image {
+    border-radius: 40px;
+}
+
+.merchant__name {
+    font-size: 1.75rem;
+    margin: 0 0 4px 0 !important;
+    line-height: 2.375rem;
+    font-weight: 600;
+    color: #202327;
+}
+
+.merchant__address {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+    color: #6A7D9A;    
+}
+
+/* KPIs */
+
+.kpilist {
+    display: flex;
+    gap: 24px;
+}
+
+.kpicard {
+    flex: 1 1 33%;
+    background-color: #FFFFFF;
+    padding: 16px;
+    border: 1px solid #E4E8ED;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 12px;
+}
+
+.kpicard__img {
+    border-radius: 36px;
+}
+
+.kpicard__title {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+    color: #202327;
+}
+
+.kpicard__value {
+    margin: 0px !important;
+    font-size: 2rem; 
+    line-height: 2rem;
+    font-weight: 400;
+    color: #202327;
+}
+
+/* Collapsible Tables */
+
+.tablelist {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.tablewrapper {
+    position: relative;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 1px solid #E4E8ED;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);    
+}
+
+.table__icon {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.table[open] + .table__icon {
+    transform: rotateZ(180deg);
+}
+
+.table__header {
+    color: #202327;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: 16px 24px;
+    list-style: none;
+}
+
+.table[open] > .table__header {
+    border-bottom: 1px solid #E4E8ED;
+}
+
+.row {
+    padding: 24px;
+    display: flex;
+    border-bottom: 1px solid #E4E8ED;
+}
+
+.row:last-of-type {
+    border-bottom: none;
+}
+
+.row__name {
+    color: #202327;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; /* 142.857% */
+    flex: 1 1 50%;
+}
+
+.row__info {
+    color: #202327;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; /* 142.857% */
+    text-align: right;
+    flex: 1 1 50%;
+}

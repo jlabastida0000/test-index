@@ -1,0 +1,174 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/(main)/details/details.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.details_mainContainer__B6gvl {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex-grow: 1;
+  }
+
+/* Return Button */
+
+.details_return__wrapper___YmZ9 {
+    position: relative;
+}
+
+.details_return__image__KOg0c {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    cursor: pointer;
+}
+
+.details_return__button__788vF {
+    padding: 8px 8px 8px 32px;
+    border-radius: 8px;
+    background-color: #F0F4F8;
+    border: none;
+    color: #202327;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+
+}
+
+/* Merchant Info */
+
+.details_merchant__he9y0 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.details_merchant__image__Q2esa {
+    border-radius: 40px;
+}
+
+.details_merchant__name__ZoCpp {
+    font-size: 1.75rem;
+    margin: 0 0 4px 0 !important;
+    line-height: 2.375rem;
+    font-weight: 600;
+    color: #202327;
+}
+
+.details_merchant__address__K548a {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+    color: #6A7D9A;    
+}
+
+/* KPIs */
+
+.details_kpilist__gsE94 {
+    display: flex;
+    gap: 24px;
+}
+
+.details_kpicard__B6z8v {
+    flex: 1 1 33%;
+    background-color: #FFFFFF;
+    padding: 16px;
+    border: 1px solid #E4E8ED;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 12px;
+}
+
+.details_kpicard__img__lj1IH {
+    border-radius: 36px;
+}
+
+.details_kpicard__title__wq9Ro {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+    color: #202327;
+}
+
+.details_kpicard__value__uMN5L {
+    margin: 0px !important;
+    font-size: 2rem; 
+    line-height: 2rem;
+    font-weight: 400;
+    color: #202327;
+}
+
+/* Collapsible Tables */
+
+.details_tablelist__JKxMd {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.details_tablewrapper__Zx4pd {
+    position: relative;
+}
+
+.details_table__G_gTq {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 1px solid #E4E8ED;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);    
+}
+
+.details_table__icon__Fl2jr {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.details_table__G_gTq[open] + .details_table__icon__Fl2jr {
+    transform: rotateZ(180deg);
+}
+
+.details_table__header__6Sc7k {
+    color: #202327;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: 16px 24px;
+    list-style: none;
+}
+
+.details_table__G_gTq[open] > .details_table__header__6Sc7k {
+    border-bottom: 1px solid #E4E8ED;
+}
+
+.details_row__Jhbiv {
+    padding: 24px;
+    display: flex;
+    border-bottom: 1px solid #E4E8ED;
+}
+
+.details_row__Jhbiv:last-of-type {
+    border-bottom: none;
+}
+
+.details_row__name__F7tv4 {
+    color: #202327;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; /* 142.857% */
+    flex: 1 1 50%;
+}
+
+.details_row__info__U02Pg {
+    color: #202327;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; /* 142.857% */
+    text-align: right;
+    flex: 1 1 50%;
+}
