@@ -20,8 +20,8 @@ const Navbar = () => {
 
             <Navlink path={path} name="/" icon="/bulb.svg" text="Search"/>
   
-            <Navlink path={path} name="/test" icon="/bulb.svg" text="Option B"/>
-            <Navlink path={path} name="/test" icon="/bulb.svg" text="Option C"/>
+            <Navlink path={path} name="/results" icon="/bulb.svg" text="Option B"/>
+            <Navlink path={path} name="/details" icon="/bulb.svg" text="Option C"/>
             <Navlink path={path} name="/test" icon="/bulb.svg" text="Option D"/>
             <Navlink path={path} name="/test" icon="/bulb.svg" text="Option E"/>
           </div>
@@ -29,8 +29,8 @@ const Navbar = () => {
             <div className={styles.navbar__separator}>
               <Navlink path={path} name="/test" icon="/bulb.svg" text="Option F"/>
               <Navlink path={path} name="/test" icon="/bulb.svg" text="Option G"/>
-              <Navlink path={path} name="/test" icon="/bulb.svg" text="Option H"/>   
-            </div>
+              <Navlink path={path} name="/login" icon="/bulb.svg" text="Option H"/>   
+            </div> 
 
         </aside>
       </>
