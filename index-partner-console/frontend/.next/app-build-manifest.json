@@ -35,6 +35,11 @@
       "static/chunks/main-app.js",
       "static/css/app/(main)/details/page.css",
       "static/chunks/app/(main)/details/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

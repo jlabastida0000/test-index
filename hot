@@ -1,0 +1,113 @@
+[33mcommit d5f2342c7dbac0967f4e17c96266cd7216574f99[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: gluesniffler <jose@getpalm.com>
+Date:   Mon Jun 17 08:17:57 2024 -0400
+
+    Added login and details page, along with a small table for results
+
+[33mcommit 96f66663ff73415a4813326436c6e6b74a3598c8[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: gluesniffler <jose@getpalm.com>
+Date:   Sun Jun 16 21:44:44 2024 -0400
+
+    test commit, fixed perms
+
+[33mcommit d9a0977272654b4dac662ebed219de3ac8f12b20[m
+Author: gluesniffler <linebarrelerenthusiast@gmail.com>
+Date:   Sun Jun 16 21:33:32 2024 -0400
+
+    test commit with initial frontend
+
+[33mcommit 739e61811e04fdd238fd8f29ba62d386c998f304[m
+Author: James Labastida <146389249+jlabastida0000@users.noreply.github.com>
+Date:   Sat Jun 15 14:37:43 2024 -0700
+
+    Create index.js
+
+[33mcommit 57da640f0b530913b75c1051515ddf36b2192dac[m
+Author: James Labastida <146389249+jlabastida0000@users.noreply.github.com>
+Date:   Sat Jun 15 14:35:47 2024 -0700
+
+    Update package.json
+
+[33mcommit b8ac70269db6e46525088d0bb2bc1bf4aa5e860a[m
+Author: James Labastida <146389249+jlabastida0000@users.noreply.github.com>
+Date:   Sat Jun 15 14:35:35 2024 -0700
+
+    Update package.json
+
+[33mcommit 34a9b186194aa53ea0e5e1b05abba570b881f5ae[m
+Author: James Labastida <146389249+jlabastida0000@users.noreply.github.com>
+Date:   Sat Jun 15 14:34:30 2024 -0700
+
+    Update next.config.js
+
+[33mcommit 1883a000d12848e44abbc179202c24d8a358df74[m
+Author: James Labastida <146389249+jlabastida0000@users.noreply.github.com>
+Date:   Sat Jun 15 14:32:53 2024 -0700
+
+    Update package.json
+
+[33mcommit 50c583e3473a5ad8848e0f4483df4ce39ac292e0[m
+Author: James Labastida <146389249+jlabastida0000@users.noreply.github.com>
+Date:   Sat Jun 15 14:30:46 2024 -0700
+
+    Create index.js
+
+[33mcommit a50b53d05cfe7e79c25311618d150ba0bbbbc567[m
+Author: James Labastida <146389249+jlabastida0000@users.noreply.github.com>
+Date:   Sat Jun 15 14:29:20 2024 -0700
+
+    Update next.config.js
+
+[33mcommit 964c2436ba53b159057b79ced92be800f0ea69f6[m
+Author: James Labastida <146389249+jlabastida0000@users.noreply.github.com>
+Date:   Sat Jun 15 14:28:18 2024 -0700
+
+    Update package.json
+
+[33mcommit 53409146bc119c732b24b04d4a39f69a07bd6d9e[m
+Author: James Labastida <146389249+jlabastida0000@users.noreply.github.com>
+Date:   Sat Jun 15 14:27:16 2024 -0700
+
+    Update package.json
+    
+    Fixed package.json formatting for vercel
+
+[33mcommit 3cacd0be0f0a17f0ee5e05147e46bdf403606537[m
+Author: James Labastida <james@getpalm.co>
+Date:   Sat Jun 15 14:20:29 2024 -0700
+
+    Added directory structure and initial files for microservices
+
+[33mcommit 2fbfbededa48fc2975fd592dc15fc028a8efe673[m
+Author: James Labastida <146389249+jlabastida0000@users.noreply.github.com>
+Date:   Tue Jun 4 17:17:07 2024 -0700
+
+    Update README.md
+
+[33mcommit 491277d94cd9de35958ff0572a9264028ea5ee8c[m
+Author: James Labastida <146389249+jlabastida0000@users.noreply.github.com>
+Date:   Tue Jun 4 17:16:50 2024 -0700
+
+    Update README.md
+
+[33mcommit fb073dab908ef1630c179df0a3c857cd8febf850[m
+Author: James Labastida <146389249+jlabastida0000@users.noreply.github.com>
+Date:   Tue Jun 4 14:08:48 2024 -0700
+
+    Update README.md
+    
+    add major features/team etc
+
+[33mcommit ff1766238bc68b0b4349b892db55194636e7955a[m
+Author: James Labastida <146389249+jlabastida0000@users.noreply.github.com>
+Date:   Tue Jun 4 13:57:12 2024 -0700
+
+    Update README.md
+    
+    add detail on how we work , where we work, and overall operating cadence
+
+[33mcommit 3bffb5844f21d736b846cc831946621d94f1d4fb[m
+Author: James Labastida <146389249+jlabastida0000@users.noreply.github.com>
+Date:   Tue Jun 4 13:48:21 2024 -0700
+
+    Initial commit
