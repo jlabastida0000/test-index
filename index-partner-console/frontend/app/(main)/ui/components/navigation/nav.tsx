@@ -20,12 +20,12 @@ const Navbar = () => {
 
             <Navlink path={path} name="/" icon="/bulb.svg" text="Search"/>
   
-            <Navlink path={path} name="/results" icon="/bulb.svg" text="Option B"/>
-            <Navlink path={path} name="/details" icon="/bulb.svg" text="Option C"/>
+            <Navlink path={path} name="/results" icon="/bulb.svg" text="Search Results"/>
+            <Navlink path={path} name="/details" icon="/bulb.svg" text="Details"/>
           </div>
       
             <div className={styles.navbar__separator}>
-              <Navlink path={path} name="/login" icon="/bulb.svg" text="Option H"/>   
+              <Navlink path={path} name="/login" icon="/bulb.svg" text="Login"/>   
             </div> 
 
         </aside>
